@@ -1,0 +1,12 @@
+{
+    "pagos":[
+        {
+            "id":1,
+            "NombreEmpresa": "ci2",
+            "NitEmresa": 18646328517,
+            "MetdoPago": "Nequi",
+            "valorCompra": 56666666666,
+            "NumeroRadicado": 988877744
+        }
+    ]
+}
