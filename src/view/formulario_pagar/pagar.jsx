@@ -1,30 +1,37 @@
 import { useState } from "react";
 import { post } from "../../library/controler";
+import Dispersar from "../Formulario_dispersar/dispersar";
 
+
+//hook para mantener control sobre os lementos que estan dentro del array
 const PagarBd = () => {
   const [informacion, information] = useState({
     NombreEmpresa: "",
+    idBd: 2,
     NitEmpresa: "",
     MetdoPago: "",
     valorCompra: "",
     NumeroRadicado: 44444444,
   });
 
-  const { NombreEmpresa, NitEmpresa, MetdoPago, valorCompra} =
-    informacion;
+  //variables donde contendre la informacion 
+  const { NombreEmpresa, NitEmpresa, MetdoPago, valorCompra } = informacion;
 
+//en esta parte envio la informacion para mi metodo post y dos datos para la vista dispersar
   const obtenerDatos = () => {
     let url = "http://localhost:5000/pagos";
     const Data = {
       NombreEmpresa: informacion.NombreEmpresa,
+      idBd: informacion.idBd,
       NitEmpresa: informacion.NitEmpresa,
       MetdoPago: informacion.MetdoPago,
       valorCompra: informacion.valorCompra,
       NumeroRadicado: informacion.NumeroRadicado,
     };
-
     post(url, Data);
+    Dispersar(informacion.idBd, NitEmpresa);
   };
+  //me controlara el cambio de las variables 
   const onchange = (e) => {
     information({
       ...informacion,
@@ -32,6 +39,7 @@ const PagarBd = () => {
     });
   };
 
+  // el evento que me controlara que despues de enviar el formulario se active el evento  
   const onSubmit = (e) => {
     e.preventDefault();
     obtenerDatos();

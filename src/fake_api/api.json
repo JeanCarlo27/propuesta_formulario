@@ -2,6 +2,7 @@
   "pagos": [
     {
       "id": "1",
+      "idBd": 2,
       "NombreEmpresa": "ci2",
       "NitEmresa": 18646328517,
       "MetdoPago": "Nequi",
@@ -9,20 +10,60 @@
       "NumeroRadicado": 988877744
     },
     {
-      "id": "f41d",
-      "NombreEmpresa": "carne",
-      "NitEmpresa": "55555555555",
-      "MetdoPago": "nequi",
-      "valorCompra": "66666666666666",
+      "id": "2e7e",
+      "NombreEmpresa": "pollo",
+      "idBd": 2,
+      "NitEmpresa": "555555555",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "600000000000",
       "NumeroRadicado": 44444444
     },
     {
-      "id": "5a6f",
-      "NombreEmpresa": "papas",
-      "NitEmpresa": "666666666666",
-      "MetdoPago": "davilata",
-      "valorCompra": "777777777",
+      "id": "c277",
+      "NombreEmpresa": "pollo",
+      "idBd": 2,
+      "NitEmpresa": "555555555",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "600000000000",
       "NumeroRadicado": 44444444
+    },
+    {
+      "id": "e2c0",
+      "NombreEmpresa": "pollo",
+      "idBd": 2,
+      "NitEmpresa": "555555555",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "600000000000",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "6ce0",
+      "NombreEmpresa": "pollo",
+      "idBd": 2,
+      "NitEmpresa": "555555555",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "600000000000",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "fd65",
+      "NombreEmpresa": "pollo",
+      "idBd": 2,
+      "NitEmpresa": "646454654",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "90000000",
+      "NumeroRadicado": 44444444
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "idBd": 2,
+      "namberUser": "Jean Carlo",
+      "documento": "10258079",
+      "email": "jeancarlo@gmail.com",
+      "usuario": "plus",
+      "billetera": 500
     }
   ]
 }
