@@ -12,7 +12,7 @@ const CrearCita = () => {
     });
 
     const obtenerDatos = () => {
-        url= 'http://localhost:5000/pagos'
+        let url= 'http://localhost:5000/pagos'
         const Data = {
             NombreEmpresa: informacion.NombreEmpresa,
             NitEmpresa: informacion.NitEmpresa,
@@ -31,7 +31,7 @@ const CrearCita = () => {
     }
     obtenerDatos()
     return(<div>
-       <form onSubmit={onSubmit}>
+       <form onSubmit={onSubmit} >
         <div>
             <input
             type="texto"
