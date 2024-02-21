@@ -1,6 +1,3 @@
-import { json } from "body-parser";
-import { useEffect, useState } from "react";
-
 export const contrler = () => {
     const get = (url) => {}
     const put = () => { }
@@ -8,12 +5,12 @@ export const contrler = () => {
         get,
         put
     }
-
-
 }
 
 export const post = (url, Data) => {
-    if (!url && !Data) {
+
+    console.log(url);
+    console.log(Data);
         fetch(url, {
             method: 'POST',
             body: JSON.stringify(Data),
@@ -32,5 +29,4 @@ export const post = (url, Data) => {
             }).catch((Error) => {
                 console.log(Error)
             })
-    }
 }

@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import { Fragment } from 'react';
-import CrearCita from './view/formulario_pagar/pagar';
-import { Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
+import PagarBd from './view/formulario_pagar/pagar';
 
 function App() {
   return (
     <Fragment>
       <Router>
         <Routes>
-          <Route path="/" exact element={<CrearCita/>} />
+          <Route path="/" exact element={<PagarBd/>} />
         </Routes>
       </Router>
     </Fragment>

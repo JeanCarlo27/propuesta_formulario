@@ -1,12 +1,28 @@
 {
-    "pagos":[
-        {
-            "id":1,
-            "NombreEmpresa": "ci2",
-            "NitEmresa": 18646328517,
-            "MetdoPago": "Nequi",
-            "valorCompra": 56666666666,
-            "NumeroRadicado": 988877744
-        }
-    ]
+  "pagos": [
+    {
+      "id": "1",
+      "NombreEmpresa": "ci2",
+      "NitEmresa": 18646328517,
+      "MetdoPago": "Nequi",
+      "valorCompra": 56666666666,
+      "NumeroRadicado": 988877744
+    },
+    {
+      "id": "f41d",
+      "NombreEmpresa": "carne",
+      "NitEmpresa": "55555555555",
+      "MetdoPago": "nequi",
+      "valorCompra": "66666666666666",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "5a6f",
+      "NombreEmpresa": "papas",
+      "NitEmpresa": "666666666666",
+      "MetdoPago": "davilata",
+      "valorCompra": "777777777",
+      "NumeroRadicado": 44444444
+    }
+  ]
 }
