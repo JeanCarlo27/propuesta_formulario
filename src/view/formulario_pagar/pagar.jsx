@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { post } from "../../library/controler";
-import Dispersar from "../Formulario_dispersar/dispersar";
-
+import { useNavigate } from "react-router-dom";
+import Dispersar from "../Formulario_dispersar/Dispersar";
 
 //hook para mantener control sobre os lementos que estan dentro del array
 const PagarBd = () => {
@@ -13,11 +13,10 @@ const PagarBd = () => {
     valorCompra: "",
     NumeroRadicado: 44444444,
   });
-
-  //variables donde contendre la informacion 
+  //variables donde contendre la informacion
   const { NombreEmpresa, NitEmpresa, MetdoPago, valorCompra } = informacion;
 
-//en esta parte envio la informacion para mi metodo post y dos datos para la vista dispersar
+  //en esta parte envio la informacion para mi metodo post y dos datos para la vista dispersar
   const obtenerDatos = () => {
     let url = "http://localhost:5000/pagos";
     const Data = {
@@ -29,9 +28,10 @@ const PagarBd = () => {
       NumeroRadicado: informacion.NumeroRadicado,
     };
     post(url, Data);
-    Dispersar(informacion.idBd, NitEmpresa);
   };
-  //me controlara el cambio de las variables 
+  //lo utiloz para facilitar el renderizado de las paginas
+  const navigate = useNavigate();
+  //me controlara el cambio de las variables
   const onchange = (e) => {
     information({
       ...informacion,
@@ -39,10 +39,12 @@ const PagarBd = () => {
     });
   };
 
-  // el evento que me controlara que despues de enviar el formulario se active el evento  
+  // el evento que me controlara que despues de enviar el formulario se active el evento
   const onSubmit = (e) => {
     e.preventDefault();
     obtenerDatos();
+    padre();
+    navigate("/dispersar");
   };
   return (
     <div>

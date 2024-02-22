@@ -5,7 +5,8 @@ export const getPetition = (url) => {
         })
         .then((Response)=> {
             if (Response.ok) {
-                return Response.json()
+                const Data = Response.json()
+                return Data
             }else{
                 throw new Error('no se pudo consultar la informacion')
             }
@@ -21,7 +22,8 @@ export const getCompañia = (url) => {
         })
         .then((Response)=> {
             if (Response.ok) {
-                return Response.json()
+                 const DATA = Response.json()
+                return {DATA}
             }else{
                 throw new Error('no se pudo consultar la informacion')
             }

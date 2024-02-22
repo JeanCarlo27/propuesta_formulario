@@ -10,48 +10,93 @@
       "NumeroRadicado": 988877744
     },
     {
-      "id": "2e7e",
-      "NombreEmpresa": "pollo",
+      "id": "64e4",
+      "NombreEmpresa": "Bancolombia",
       "idBd": 2,
-      "NitEmpresa": "555555555",
-      "MetdoPago": "bancolombia",
-      "valorCompra": "600000000000",
+      "NitEmpresa": "4564654564",
+      "MetdoPago": "nequi",
+      "valorCompra": "45646548798",
       "NumeroRadicado": 44444444
     },
     {
-      "id": "c277",
-      "NombreEmpresa": "pollo",
+      "id": "4006",
+      "NombreEmpresa": "Bancolombia",
       "idBd": 2,
-      "NitEmpresa": "555555555",
-      "MetdoPago": "bancolombia",
-      "valorCompra": "600000000000",
+      "NitEmpresa": "4564654564",
+      "MetdoPago": "nequi",
+      "valorCompra": "45646548798",
       "NumeroRadicado": 44444444
     },
     {
-      "id": "e2c0",
-      "NombreEmpresa": "pollo",
+      "id": "96cb",
+      "NombreEmpresa": "Bancolombia",
       "idBd": 2,
-      "NitEmpresa": "555555555",
-      "MetdoPago": "bancolombia",
-      "valorCompra": "600000000000",
+      "NitEmpresa": "4564654564",
+      "MetdoPago": "nequi",
+      "valorCompra": "45646548798",
       "NumeroRadicado": 44444444
     },
     {
-      "id": "6ce0",
-      "NombreEmpresa": "pollo",
+      "id": "4353",
+      "NombreEmpresa": "Bancolombia",
       "idBd": 2,
-      "NitEmpresa": "555555555",
-      "MetdoPago": "bancolombia",
-      "valorCompra": "600000000000",
+      "NitEmpresa": "132456879",
+      "MetdoPago": "nequi",
+      "valorCompra": "45645465454",
       "NumeroRadicado": 44444444
     },
     {
-      "id": "fd65",
-      "NombreEmpresa": "pollo",
+      "id": "031d",
+      "NombreEmpresa": "carne",
       "idBd": 2,
-      "NitEmpresa": "646454654",
+      "NitEmpresa": "4567897",
       "MetdoPago": "bancolombia",
-      "valorCompra": "90000000",
+      "valorCompra": "122200000",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "9243",
+      "NombreEmpresa": "Bancolombia",
+      "idBd": 2,
+      "NitEmpresa": "4564654564",
+      "MetdoPago": "nequi",
+      "valorCompra": "45646548798",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "1809",
+      "NombreEmpresa": "Bancolombia",
+      "idBd": 2,
+      "NitEmpresa": "4564654564",
+      "MetdoPago": "nequi",
+      "valorCompra": "45646548798",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "5b13",
+      "NombreEmpresa": "Bancolombia",
+      "idBd": 2,
+      "NitEmpresa": "45644314656",
+      "MetdoPago": "nequi",
+      "valorCompra": "7865451321",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "3e36",
+      "NombreEmpresa": "carne",
+      "idBd": 2,
+      "NitEmpresa": "56465456",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "7897846541",
+      "NumeroRadicado": 44444444
+    },
+    {
+      "id": "ce2e",
+      "NombreEmpresa": "pepe",
+      "idBd": 2,
+      "NitEmpresa": "46879874",
+      "MetdoPago": "bancolombia",
+      "valorCompra": "7897465465",
       "NumeroRadicado": 44444444
     }
   ],
