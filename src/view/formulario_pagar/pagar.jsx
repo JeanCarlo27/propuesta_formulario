@@ -1,10 +1,13 @@
 import { useState } from "react";
 import { post } from "../../library/controler";
 import { useNavigate } from "react-router-dom";
-import Dispersar from "../Formulario_dispersar/Dispersar";
+import '../../css/Pagar.css';
+
+
+
 
 //hook para mantener control sobre os lementos que estan dentro del array
-const PagarBd = () => {
+const PagarBd = ({prueba}) => {
   const [informacion, information] = useState({
     NombreEmpresa: "",
     idBd: 2,
@@ -29,6 +32,8 @@ const PagarBd = () => {
     };
     post(url, Data);
   };
+
+  
   //lo utiloz para facilitar el renderizado de las paginas
   const navigate = useNavigate();
   //me controlara el cambio de las variables
@@ -43,16 +48,19 @@ const PagarBd = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     obtenerDatos();
-    padre();
+    prueba({
+      idBd: informacion.idBd,
+      NitEmpresa: informacion.NitEmpresa
+    })
     navigate("/dispersar");
   };
   return (
-    <div>
+    <div className="padre">
       <form onSubmit={onSubmit}>
         <div>
           <input
             type="texto"
-            className="nombre"
+            className="input"
             placeholder="Nombre Empresa"
             name="NombreEmpresa"
             value={NombreEmpresa}
@@ -60,7 +68,7 @@ const PagarBd = () => {
           />
           <input
             type="number"
-            className="nit"
+            className="input"
             placeholder="Nit de empresa"
             name="NitEmpresa"
             value={NitEmpresa}
@@ -68,7 +76,7 @@ const PagarBd = () => {
           />
           <input
             type="tex"
-            className="metodoPago"
+            className="input"
             placeholder="Metodo de pago"
             name="MetdoPago"
             value={MetdoPago}
@@ -76,7 +84,7 @@ const PagarBd = () => {
           />
           <input
             type="Number"
-            className="valorCompra"
+            className="input"
             placeholder="Valor de la compra"
             name="valorCompra"
             value={valorCompra}

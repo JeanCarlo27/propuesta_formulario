@@ -1,32 +1,35 @@
 import { useState } from "react";
-import { getCompañia, getPetition, putPetition } from "../../library/controler";
+import { getCompany, getUsers, putPetition } from "../../library/controler";
 
-export const Dispersar = ({idBd, NitEmpresa}) => {
-  
-  console.log(`el id es ${idBd} el nit es ${NitEmpresa}`);
+export const Dispersar = ({ info }) => {
   const [compra, setCompra] = useState(null);
-  //empiesan los metdos que me consultaran y amlacenaran informacion
-  const consultaEmpresa = (idBd, NitEmpresa) => {
-    let url = `http://localhost:5000/pagos/${idBd}/${NitEmpresa}`;
-    const { DATA } = getCompañia(url);
-    return { DATA };
+  const idBd = info.idBd;
+  const NitEmpresa = info.NitEmpresa;
+
+  //empiesan los metodos que me consultaran y almacenaran informacion
+  const consultaEmpresa = async (idBd, NitEmpresa) => {
+      let url = `http://localhost:5000/pagos/?idBd=${idBd}&NitEmpresa=${NitEmpresa}`;
+      const {Data} = getCompany(url)
+      console.log(`esto es data ${Data}`);
+      return Data
   };
   setCompra(consultaEmpresa(idBd, NitEmpresa));
-  const consulta = () => {
-    let url = `http://localhost:5000/usuarios/${idBd}`;
-    const { Data } = getPetition(url);
-    enviarInformacion(Data);
+
+  const consulta = (idBd) => {
+    let url = `http://localhost:5000/usuarios/?idBd=${idBd}`;
+    const  Data  = getUsers(url);
+    enviarInformacion(Data, idBd);
   };
   //terminan los metodos que me consultan la informacion
 
-  //estos son los metodos que me interactuan con la informacion ya consultada
-  const enviarInformacion = (Data) => {
-    let url = `http://localhost:5000/usuarios${idBd}`;
+  //estos son los metodos que me interactuan con la informacion ya consultada increase  
+  const enviarInformacion = (Data, idBd) => {
+    let url = `http://localhost:5000/usuarios/?idBd=${idBd}`;
     const data = Data?.map((item) => {
       if (item.billetera) {
         item.billetera += 800;
       }
-      return data;
+      return data
     });
     putPetition(url, data);
   };
