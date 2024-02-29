@@ -1,16 +1,13 @@
 import './App.css';
 import { Fragment, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PagarBd from './view/formulario_pagar/Pagar';
-import Dispersar from './view/Formulario_dispersar/Dispersar';
+import { Nav } from './view/Formulario-payout/Nav';
 function App() {
-  const [datos, setDatos] = useState (null)
   return (
     <Fragment>
       <Router>
         <Routes>
-          <Route path="/" exact element={<PagarBd  prueba ={setDatos}/>} />
-          <Route path='/dispersar' exact element={<Dispersar info={datos}/>} />
+          <Route path='/' element={<Nav/>}/>
         </Routes>
       </Router>
     </Fragment>

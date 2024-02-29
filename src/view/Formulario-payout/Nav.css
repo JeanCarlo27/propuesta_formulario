@@ -1,0 +1,6 @@
+.contecInfo{
+    height: 100%;
+    width: 30%;
+    background-color: var(--estilo-hover);
+    color: var(--estilo-hover);
+}
