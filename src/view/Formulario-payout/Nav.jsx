@@ -26,13 +26,13 @@ export const Nav = () => {
           <div>
             <a href="/">
               <img src="" alt="" />
-              <span>Ajustes</span>{" "}
+              <span>Ajustes</span>
             </a>
           </div>
           <div>
             <a href="/">
               <img src="" alt="" />
-              <span>Cerrar sesión</span>{" "}
+              <span>Cerrar sesión</span>
             </a>
           </div>
         </div>

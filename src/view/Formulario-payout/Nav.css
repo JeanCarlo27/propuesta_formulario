@@ -1,6 +1,8 @@
 .contecInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
-    width: 30%;
-    background-color: var(--estilo-hover);
-    color: var(--estilo-hover);
+    width: 20%;
+    background-color: var(--color-purple);
 }

@@ -1,6 +1,56 @@
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(./assets/poppins/Poppins-Light.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-normal";
+  src: url(./assets/poppins/Poppins-Regular.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./assets/poppins/Poppins-Regular.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./assets/poppins/Poppins-Medium.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(./assets/poppins/Poppins-Bold.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(./assets/poppins/Poppins-SemiBold.otf);
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(./assets/quicksand/Quicksand-Bold.ttf);
+  font-style: bold;
+}
+
 :root{
-  --color-Fondo: #9E9E9E2E;
-  --color-de-sobresalto: #A10268;
-  --estilo-hover: #FF5D00;
+ --color-de-fondo-contenido: #FFFFFF;
+ --color-de-fondo-menu: #73154F;
+ --color-de-borde-menu: #3A0B28;
+ --color-naranja-efectos: #FF5D00;
+ --color-de-fondo-vista: #9E9E9E2E;
+ --color-de-letra-sobresaltado: #A10268;
+ --segundo-color-de-letra-menu: #FFF4E9;
+ --color-de-los-input: #00000029;
+ --color-texto-inputs: #7A7A7A;
+ --color-letra: #595959;
+ --color-letra-recomendacion: #707070;
 }
 
