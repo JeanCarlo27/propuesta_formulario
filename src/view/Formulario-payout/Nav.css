@@ -1,8 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .contecInfo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
+    width: 16%;
+    background-color: var(--color-de-fondo-menu);
+}
+.contecActionButtons{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contecOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+}
+.grupItem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;   
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 100%;
-    width: 20%;
-    background-color: var(--color-purple);
+    justify-content: center;
+}
+.item a{
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 2vh;
+    color: var(--color-de-fondo-contenido);
+    font-size: 1.8vw;
+}
+.ajustes a{
+    font-size: 1.8vw;
+    text-decoration: none;
+    padding: 2vh;
+    color: var(--color-de-fondo-contenido);
+}
+
+.logup a{
+    font-size: 1.8vw;
+    text-decoration: none;
+    padding: 2vh;
+    margin-left: 1vh;
+    color: var(--color-de-fondo-contenido);
 }

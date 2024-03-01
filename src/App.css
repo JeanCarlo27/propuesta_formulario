@@ -41,6 +41,13 @@
 }
 
 :root{
+ --Poppins-Light:"Poppins-Light";
+ --Poppins-normal:"Poppins-normal";
+ --Poppins-Regular:"Poppins-Regular";
+ --Poppins-Medium:"Poppins-Medium";
+ --Poppins-Bold:"Poppins-Bold";
+ --Poppins-SemiBold:"Poppins-SemiBold";
+ --Quicksand-Bold:"Quicksand-Bold";
  --color-de-fondo-contenido: #FFFFFF;
  --color-de-fondo-menu: #73154F;
  --color-de-borde-menu: #3A0B28;
