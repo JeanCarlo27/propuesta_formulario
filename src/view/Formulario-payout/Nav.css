@@ -1,59 +1,140 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.contecInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    width: 16%;
-    background-color: var(--color-de-fondo-menu);
-}
-.contecActionButtons{
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.contecOptions{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 60vh;
-}
-.grupItem{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 40vh;   
-}
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-}
-.item a{
-    justify-content: space-evenly;
-    text-decoration: none;
-    padding: 2vh;
-    color: var(--color-de-fondo-contenido);
-    font-size: 1.8vw;
-}
-.ajustes a{
-    font-size: 1.8vw;
-    text-decoration: none;
-    padding: 2vh;
-    color: var(--color-de-fondo-contenido);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logup a{
-    font-size: 1.8vw;
-    text-decoration: none;
-    padding: 2vh;
-    margin-left: 1vh;
-    color: var(--color-de-fondo-contenido);
+.contecInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 21vw;
+  background-color: var(--color-de-fondo-menu);
+  background-image: url(../../assets/img/fondo_base_violeta-.png);
+  mask-repeat: no-repeat;
+  background-size: 1420px;
+}
+
+.contecOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 60vh;
+}
+
+.namePlan {
+  display: flex;
+  width: 80%;
+  height: 30vh;
+  margin-left: 2vw;
+  align-items: center;
+}
+
+.namePlan img {
+  width: 16vw;
+}
+
+.grupItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.selection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.selection a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2vh;
+  color: var(--color-de-fondo-contenido);
+  font-size: 1.8vw;
+  justify-content: space-between;
+  width: 80vw;
+  margin-bottom: 4px;
+  justify-content: center;
+  font-family: var(--Quicksand-Bold);
+}
+.selection img {
+  height: 100%;
+  width: 20%;
+  margin-left: 1vw;
+}
+
+.selection :hover {
+  background-color: var(--color-naranja-efectos);
+  transition: 1.5s;
+  opacity: 5;
+}
+
+.texto {
+  width: 100%;
+  margin-left: 2vw;
+}
+
+.contecActionButtons {
+  height: 30.5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ajustes {
+  width: 100%;
+}
+.ajustes img {
+  height: 80%;
+  width: 30%;
+}
+
+.ajustes a {
+  font-size: 1.8vw;
+  text-decoration: none;
+  padding: 2vh;
+  color: var(--color-de-fondo-contenido);
+  width: 100%;
+}
+
+.logup :hover {
+  background-color: var(--color-naranja-efectos);
+  transition: 1.5s;
+  opacity: 5;
+}
+.logup {
+  width: 92%;
+  margin-top: 1vw;
+}
+.logup a {
+  display: flex;
+  width: 100%;
+  font-size: 1.8vw;
+  text-decoration: none;
+  padding: 2vh;
+  color: var(--color-de-fondo-contenido);
+  font-family: var(--Quicksand-Bold);
+}
+.logup img {
+  margin-left: 1.8vw;
+  height: 10%;
+  width: 15%;
+}
+
+.cerrar {
+  width: 60%;
+  margin-left: 1.5vw;
 }
