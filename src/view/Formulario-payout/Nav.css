@@ -77,7 +77,6 @@
 
 .selection :hover {
   background-color: var(--color-naranja-efectos);
-  opacity: 5;
 }
 
 .texto {
@@ -111,7 +110,6 @@
 
 .logup :hover {
   background-color: var(--color-naranja-efectos);
-  opacity: 5;
 }
 .logup {
   width: 92%;
@@ -127,7 +125,7 @@
   font-family: var(--Quicksand-Bold);
 }
 .logup img {
-  margin-left: 1.8vw;
+  margin-left: 3vw;
   height: 10%;
   width: 15%;
 }
@@ -136,3 +134,24 @@
   width: 60%;
   margin-left: 1.5vw;
 }
+
+@media (min-width:1500px){
+  .contecInfo{
+    background-size: 2060px;
+  }
+  .logup img {
+    margin-left: 2.5vw;
+  }
+  
+  .logup a{
+    width: 91%;
+  }
+  .cerrar{
+    width: 100%;
+  }
+
+  .logup {
+   width: 100%;
+  }
+}
+

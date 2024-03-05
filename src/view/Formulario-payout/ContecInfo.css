@@ -1,0 +1,59 @@
+
+.contec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+
+}
+
+.contecInformacion{
+    position: relative;
+    width: 90%;
+    height: 93vh;
+    background-color: aqua;
+    border-radius: 35px;
+}
+
+.historialPagos{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid var(--color-de-letra-sobresaltado);
+}
+.linkHistorialDePagos{
+    display: flex;
+    padding: 1.3rem;
+    border-bottom: 3px solid var(--color-de-letra-sobresaltado);
+    margin-left: 2rem;
+}
+
+.linkHistorialDePagos a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.botonBilletra{
+    position: absolute;
+    left: 97%;
+    top: 15%;
+}
+
+.botonBilletra button{
+ background-color: orange;
+ width: 6vw;
+ height: 9vh;
+ border-radius: 25px 0 0 25px;
+ border: none;
+}
+
+.botonBilletra button img{
+    width: 50%;
+    height: 100%;
+}
+
+
