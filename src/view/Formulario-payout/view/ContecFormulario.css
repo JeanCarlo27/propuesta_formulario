@@ -115,4 +115,7 @@ margin-top: 20px;
     .inputAndTexto{
         padding-left: 50px;
     }
+    .inputAndTexto input{
+        width: 41.5%;
+    }
   }
