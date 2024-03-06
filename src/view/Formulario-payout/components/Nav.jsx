@@ -1,10 +1,10 @@
-import "../Formulario-payout/Nav.css";
-import tudatapremiumHuella from "../../assets/img/tudatapremiumHuella.png";
-import iconEmpresas from "../../assets/icon/icon_empresas.svg";
-import iconBilletera from "../../assets/icon/icon_billetera.svg";
-import iconAjustes from "../../assets/icon/icon_ajustes.svg";
-import iconCerrar from "../../assets/icon/icon_cerrar.svg";
-import iconPremium from "../../assets/icon/icon_tudata_premium.png";
+import "../components/Nav.css";
+import tudatapremiumHuella from "../../../assets/img/tudatapremiumHuella.png";
+import iconEmpresas from "../../../assets/icon/icon_empresas.svg";
+import iconBilletera from "../../../assets/icon/icon_billetera.svg";
+import iconAjustes from "../../../assets/icon/icon_ajustes.svg";
+import iconCerrar from "../../../assets/icon/icon_cerrar.svg";
+import iconPremium from "../../../assets/icon/icon_tudata_premium.png";
 export const Nav = () => {
   return (
     <section>

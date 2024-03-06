@@ -1,0 +1,41 @@
+
+.contec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-de-fondo-vista);
+
+}
+
+.contecInformacion{
+    position: relative;
+    width: 98%;
+    height: 93vh;
+    background-color: var(--color-de-fondo-contenido);
+    border-radius: 35px;
+}
+
+.historialPagos{
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid var(--color-de-letra-sobresaltado);
+}
+.linkHistorialDePagos{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+.linkHistorialDePagos a{
+    text-decoration: none;
+    font-family: var(--Poppins-Bold) ;
+    color: var(--color-de-letra-sobresaltado);
+    font-size: 1.46vw;
+    line-height: 3.4vw;
+}
+
+

@@ -10,7 +10,7 @@
   height: 100vh;
   width: 21vw;
   background-color: var(--color-de-fondo-menu);
-  background-image: url(../../assets/img/fondo_base_violeta-.png);
+  background-image: url(../../../assets/img/fondo_base_violeta-.png);
   mask-repeat: no-repeat;
   background-size: 1420px;
 }
