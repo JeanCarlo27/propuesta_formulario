@@ -1,121 +1,126 @@
-.contecFormulario{
-    width: 100%;
-    height: 80%;
+.contecFormulario {
+  width: 100%;
+  height: 80%;
 }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 86vh;
-    border-radius: 0 0 25px 25px;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 86vh;
+  border-radius: 0 0 25px 25px;
 }
 
-
-.inputs{
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 13%;
-    align-items: center;
-    justify-content: center;
+.inputs {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 13%;
+  align-items: center;
+  justify-content: center;
 }
 
-.textos{
-    width: 100%;
+.textos {
+  width: 100%;
 }
-.textos h3{
-margin-left: 4vw;
-font-family: var(--Poppins-SemiBold);
-font-size: 1.5vw;
-color: var(--color-de-letra-sobresaltado);
-margin-top: 20px;
+.textos h3 {
+  margin-left: 4vw;
+  font-family: var(--Poppins-SemiBold);
+  font-size: 1.5vw;
+  color: var(--color-de-letra-sobresaltado);
+  margin-top: 20px;
 }
-.textos p{
-    margin-left: 4vw;
-    font-family: var(--Poppins-Medium);
-    font-size: 1.2vw;
+.textos p {
+  margin-left: 4vw;
+  font-family: var(--Poppins-Medium);
+  font-size: 1.2vw;
 }
-.inputs input{
-    margin: 3rem;
-    width: 40%;
-    height: 80%;
-    font-size: 1.5vw;
-    font-family: var(--Poppins-Regular);
-    color: var(--color-texto-inputs);
-    outline: none;
-    border-radius: 15px;
-    box-shadow: inset 6px 8px 25px #00000029;
-    border: none;
-    
+.inputs input {
+  margin: 3rem;
+  width: 40%;
+  height: 80%;
+  font-size: 1.5vw;
+  font-family: var(--Poppins-Regular);
+  color: var(--color-texto-inputs);
+  outline: none;
+  border-radius: 15px;
+  box-shadow: inset 6px 8px 25px #00000029;
+  border: none;
+  padding-left: 20px;
 }
-
 .inputs input::placeholder{
-    padding-left: 20px;
+ color: var(--color-texto-inputs);
 }
 
-.inputAndTexto{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.inputAndTexto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.inputAndTexto p{
-    margin-left: 3.7vw;
-    font-family: var(--Poppins-Regular);
-    color: var(--color-letra-recomendacion);
-} 
-
-.botonInteraccion{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 13vh;
-    border-radius: 0 0 25px 25px;
+.inputAndTexto input{
+  width: 68vh;
+}
+.inputAndTexto p {
+  margin-left: 2.7vw;
+  font-family: var(--Poppins-Regular);
+  color: var(--color-letra-recomendacion);
+  padding-bottom: 35px;
 }
 
-.botonInteraccion button{
-    border: none;
-    font-size: 1.5vW;
-    width: 22vW;
-    height: 7vh;
-    border-radius: 12px;
-    background-color: var(--color-naranja-efectos);
-    color: var(--segundo-color-de-letra-menu);
-    margin-right: 50px;
+.botonInteraccion {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 13vh;
+  border-radius: 0 0 25px 25px;
 }
 
-.botonInteraccion a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    margin-top: 4vh;
-    margin-left: 4vw;
-    font-size: 1.5vw;
-    font-family: var(--Poppins-Medium);
-    color: var(--color-de-letra-sobresaltado);
+.botonInteraccion button {
+  border: none;
+  font-size: 1.5vw;
+  width: 22vw;
+  height: 7vh;
+  border-radius: 12px;
+  background-color: var(--color-naranja-efectos);
+  color: var(--segundo-color-de-letra-menu);
+  margin-right: 50px;
 }
 
-.botonInteraccion a img{
-    width: 40%;
-    height: 40%;
+.botonInteraccion a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 4vh;
+  margin-left: 4vw;
+  font-size: 1.5vw;
+  font-family: var(--Poppins-Medium);
+  color: var(--color-de-letra-sobresaltado);
 }
 
-@media (min-width:1500px){
-    .textos h3{
-        margin-left: 100px;
-    }
-    .textos p{
-        margin-left: 100px;
-    }
-    .inputAndTexto{
-        padding-left: 50px;
-    }
-    .inputAndTexto input{
-        width: 41.5%;
-    }
+.botonInteraccion a img {
+  width: 40%;
+  height: 40%;
+}
+
+@media (min-width: 1500px) {
+  .textos h3 {
+    margin-left: 84px;
   }
+  .textos p {
+    margin-left: 84px;
+  }
+  .inputAndTexto {
+    padding-left: 33px;
+  }
+  .inputAndTexto input {
+    width: 41%;
+  }
+  .inputAndTexto p{
+    padding-bottom: 50px;
+  }
+}
